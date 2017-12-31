@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse
 @WebServlet(name = "HelloWorld", urlPatterns = arrayOf("/HelloWorld"))
 class HelloWorld : HttpServlet() {
     override fun doPost(req: HttpServletRequest?, resp: HttpServletResponse?) {
-        resp?.writer?.println("Hello World !!!")
+        resp?.writer?.println("Hello World by Kotlin !!!")
     }
 
     override fun doGet(req: HttpServletRequest?, resp: HttpServletResponse?) {
